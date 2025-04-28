@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "type": "puppy",
+    "name": "Finn",
+    "image": "/images/puppy1.jpg",
+    "adoptedBy": null,
+    "hunger": 7,
+    "happiness": 98,
+    "owner": null
+  },
+  {
+    "id": 2,
+    "type": "kitten",
+    "name": "Willow",
+    "image": "/images/kitten1.jpg",
+    "adoptedBy": null,
+    "hunger": 17,
+    "happiness": 58,
+    "owner": 1745602462299
+  },
+  {
+    "id": 3,
+    "type": "puppy",
+    "name": "Oreo",
+    "image": "/images/puppy2.jpg",
+    "adoptedBy": null,
+    "hunger": 5,
+    "happiness": 78,
+    "owner": null
+  },
+  {
+    "id": 4,
+    "type": "kitten",
+    "name": "Shadow",
+    "image": "/images/kitten2.jpg",
+    "adoptedBy": null,
+    "hunger": 36,
+    "happiness": 90,
+    "owner": null
+  },
+  {
+    "id": 5,
+    "type": "puppy",
+    "name": "Shadow",
+    "image": "/images/puppy3.jpg",
+    "adoptedBy": null,
+    "hunger": 7,
+    "happiness": 91,
+    "owner": null
+  },
+  {
+    "id": 6,
+    "type": "kitten",
+    "name": "Willow",
+    "image": "/images/kitten3.jpg",
+    "adoptedBy": null,
+    "hunger": 18,
+    "happiness": 81,
+    "owner": null
+  },
+  {
+    "id": 7,
+    "type": "puppy",
+    "name": "Finn",
+    "image": "/images/puppy4.jpg",
+    "adoptedBy": null,
+    "hunger": 9,
+    "happiness": 80,
+    "owner": null
+  },
+  {
+    "id": 8,
+    "type": "kitten",
+    "name": "Oreo",
+    "image": "/images/kitten4.jpg",
+    "adoptedBy": null,
+    "hunger": 45,
+    "happiness": 66,
+    "owner": null
+  }
+]

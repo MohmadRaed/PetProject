@@ -1,0 +1,18 @@
+[
+  {
+    "name": "raed",
+    "email": "mohammedrodeh@gmail.com",
+    "passwordHash": "$2b$10$vFQAzE/M85F/O3Ly29VQB.jiGGghgxTDAOyqAx8rOCR7YYzgQU1xe",
+    "id": 1745686830738,
+    "budget": 99999910,
+    "inventory": {
+      "food": 1000009,
+      "toy": 100000000,
+      "treat": 100000
+    },
+    "isAdmin": true,
+    "pets": [
+      1
+    ]
+  }
+]
