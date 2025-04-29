@@ -33,29 +33,51 @@
 	}
 </script>
 
-<h1>Pet Shop</h1>
-
-{#if user}
-	<p>Your Budget: ${user.budget}</p>
-	<p>Inventory:</p>
-	<ul>
-		<li>Food: {user.inventory.food}</li>
-		<li>Toy: {user.inventory.toy}</li>
-		<li>Treat: {user.inventory.treat}</li>
-	</ul>
-	<button on:click={() => buy('food')}>Buy Food (${prices.food})</button>
-	<button on:click={() => buy('toy')}>Buy Toy (${prices.toy})</button>
-	<button on:click={() => buy('treat')}>Buy Treat (${prices.treat})</button>
-{:else}
-	<p>Please log in to purchase items.</p>
-{/if}
-
-<p>{message}</p>
+<div class="container">
+    <div class="box">
+        <h1>🐾 Raed's Pet Shop</h1>
+        <p>Please log in to purchase items.</p>
+    </div>
+</div>
 
 <style>
-	button {
-		padding: 0.5rem;
-		font-size: 1rem;
-		margin-right: 0.5rem;
-	}
+    /* Center the body content */
+    body {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 100vh; /* Full viewport height */
+        margin: 0; /* Removes default margin */
+        background-color: #f4f4f9; /* Optional light background */
+    }
+
+    /* Centered content container */
+    .container {
+        display: flex;
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        width: 100%;
+    }
+
+    /* Box styling */
+    .box {
+        padding: 2rem;
+        border: 2px solid #0077cc;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        max-width: 500px;
+        width: 100%; /* Ensures the box doesn't overflow */
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        color: #0077cc;
+    }
+
+    p {
+        font-size: 1rem;
+        color: #333;
+    }
 </style>
