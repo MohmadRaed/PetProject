@@ -31,18 +31,33 @@
 <slot />
 
 <style>
+    /* Centering the entire layout */
+    body {
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        height: 100vh; /* Full viewport height */
+        margin: 0; /* Remove default margin */
+        background-color: #f4f4f9; /* Optional light background color */
+    }
+
+    /* Centering content within the nav */
     nav {
         background: #f2f2f2;
         padding: 1rem;
         display: flex;
         gap: 1rem;
         align-items: center;
+        justify-content: center; /* Center the nav content horizontally */
+        width: 100%;
+        max-width: 1200px; /* Optional: limits max width of nav */
         border-bottom: 1px solid #ccc;
     }
 
     nav a {
         text-decoration: none;
         color: #333;
+         font-size: 0.9rem;
     }
 
     nav .user {
@@ -55,6 +70,7 @@
         border: none;
         cursor: pointer;
         color: #0077cc;
+         font-size: 0.9rem;
     }
 
     nav button:hover {
